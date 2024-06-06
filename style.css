@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+
+    background-color: black;
+    color: white;
+    height: 60px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    background-image: url('amazon.png');
+    background-size: cover;
+    height: 50px;
+    width: 165px;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+
+}
+
+
+/* locationpart */
+
+.locationplusindia {
+    display: flex;
+}
+
+.locationlogo {
+    padding: 5px;
+}
+
+.firstpara {
+    margin-left: 14px;
+    font-size: 1rem;
+}
+
+.secondpara {
+    margin-left: 3px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* searchpart */
+.searchpart {
+    display: flex;
+    justify-content: space-between;
+    width: 525px;
+}
+
+.searchpart:hover {
+    border: 2px solid rgb(255, 208, 0);
+}
+
+input {
+    width: 450px;
+    font-size: 1.2rem;
+    height: 35;
+    padding: 9;
+    border: none;
+
+}
+
+#select {
+    height: 35;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f7f5f5;
+    font-size: 1rem;
+}
+
+.searchbutton {
+    height: 35;
+    border: none;
+    background-color: rgb(255, 208, 0);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#icon {
+    width: 33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33;
+}
+
+.p2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.orders {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#koo {
+    padding: 5;
+}
+
+.cart {
+    display: flex;
+    padding: 5px;
+    align-items: baseline;
+}
+
+.crt {
+    font-weight: 700;
+}
+
+#crt {
+    font-size: 30;
+}
+
+.boxfour {
+    padding: 5;
+}
+
+/* navigation two */
+.allicon {
+    background-color: #484e4e;
+    color: white;
+    padding: 5;
+    margin: 10;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-left: 150;
+    justify-content: center;
+}
+
+.navtwo {
+    display: flex;
+    background-color: #484e4e;
+    color: white;
+
+}
+
+a {
+    color: white;
+    padding: 5;
+    text-decoration: none;
+    margin: 10;
+}
+
+.navtwolast {
+    margin: 10 10 10 200;
+    padding: 5;
+    font-weight: 700;
+}
+
+/* herosection */
+
+.herosection {
+    background-image: url('hero.png');
+    height: 450px;
+    background-size: cover;
+}
+
+.message {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    text-align: center;
+    height: 30;
+    padding-top: 15;
+    bottom: 80px;
+    left: 10%;
+}
+
+#amazonlink {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* boxes */
+
+.boximage {
+    height: 290px;
+    background-size: cover;
+    margin-top: 13;
+    margin-bottom: 16px;
+}
+
+.displayboxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(241, 241, 241);
+}
+
+.boxone {
+    margin: 13;
+    height: 410px;
+    background-color: white;
+}
+
+.boxcontent {
+    padding: 10px;
+}
+
+.boxcontent p {
+    color: blue;
+}
+
+.backtotop {
+    display: flex;
+    height: 35;
+    font-size: 1.2rem;
+    background-color: #484e4e;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+
+    background-color: #232F3E;
+    padding: 60 100 20 0100;
+}
+
+.foot a {
+    color: DDDDDD;
+    padding: 3;
+    margin: 0;
+    display: block;
+
+
+    background-color: #232F3E;
+}
+
+ul span {
+    color: DDDDDD;
+    font-weight: bold;
+    height: 2;
+}
